@@ -5,9 +5,116 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.pic{
+  width: 15%;
+  
+  
+}
+
+.elo{
+  
+  
+  margin-bottom: 50px;
+  box-shadow: -1px 3px 7px #dee1df;
+  padding: 5px;
+
+}
+
+main{
+  margin-left: 190px;
+  
+}
+
+main > img{
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.online{
+  margin-top: 10;
+  margin-bottom: 10px;
+}
+
+.online > h1{
+  margin: 10px;
+}
+
+.img{
+  width: 199px;
+  height: 43vh;
+}
+
+.gallery{
+  display: flex;
+  
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.star{
+  width: 13px;
+}
+
+.swim{
+  
+  display: flex;
+  flex-direction: column;
+  height: 56vh;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.swim > h5{
+
+  width: 30%;
+  position: absolute;
+  top: 20px;
+  color: white;
+  font-size: 12px;
+
+}
+
+.gallery div > h4{
+  border: 1px solid white;
+  width: 90px;
+  padding: 3px;
+  margin-left: 8px;
+  position: relative;
+  top: 40px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 3px;
+  font-weight: 480;
+}
+
+.dot{
+  visibility: hidden;
+}
+
+.mini{
+  opacity: 0.7;
+}
+
+.cost{
+  display: inline;
+}
+
+#line{
+  padding-left: 10px;
+  
+  width: 40%;
 }

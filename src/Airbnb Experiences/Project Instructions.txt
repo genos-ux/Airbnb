@@ -1,0 +1,27 @@
+
+Project 2 - Build an Airbnb Experiences Clone
+
+1. Setup a new react app.
+	- Give it a name called airbnb
+
+
+2. Build a NavBar component
+	- Add logo
+	- Style your component
+
+3. Build a Hero component
+	- Add image (grid images)
+	- Add a title (with an h1 tag)
+	- Add a paragraph content
+	- Style your component
+
+
+4. Build a Card component. Make sure to include:
+	- image
+	- star icon (star.png), rating and review count
+	- title
+	- cost/person
+
+	- Style your component
+
+5. Use props to dynamically change the different elements in the Card component.
